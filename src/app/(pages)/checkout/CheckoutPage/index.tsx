@@ -99,6 +99,7 @@ export const CheckoutPage: React.FC<{
               <p></p>
               <p className={classes.quantity}>Quantity</p>
             </div>
+
             <p className={classes.subtotal}>Subtotal</p>
           </div>
 
@@ -131,6 +132,7 @@ export const CheckoutPage: React.FC<{
             })}
             <div className={classes.orderTotal}>
               <p>Order Total</p>
+              <p className={classes.subtotal}>Shipping £4</p>
               <p>{cartTotal.formatted}</p>
             </div>
           </ul>
